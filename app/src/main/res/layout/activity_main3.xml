@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="0dp"
+        android:layout_height="257dp"
+        android:background="@drawable/info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:text="Вокзал — здание или комплекс зданий на железнодорожной станции, предназначенное для обслуживания пассажиров.  Кроме собственно здания в вокзал могут включаться павильоны, пассажирские платформы, вокзальные переходы (пешеходные тоннели, мосты, конкорсы), малые архитектурные формы[1][2]. Иногда железнодорожные вокзалы могут быть в составе комбинированных вокзалов, к примеру железнодорожно-автобусных[3], либо входить в состав транспортно-пересадочных узлов в виде отдельно стоящего здания или совмещённого единого здания[4]. Также, некоторые вокзалы могут быть объединены (блокированы) со служебными зданиями железнодорожной станции (посты ЭЦ, здания связи, товарные конторы и т. д.), либо с общественными зданиями (почтамты, гостиницы, рестораны, торговые комплексы и т. д.)[5].  Помещения вокзала подразделяются на пассажирскую зону (вестибюли, залы ожидания, комнаты матери и ребенка, комнаты отдыха транзитных пассажиров, помещения билетных касс и справочных бюро, санузлы) и служебно-техническую. К основным подразделениям вокзала относятся билетно-кассовый цех, справочно-информационная служба, багажное отделение, камеры хранения ручной клади, могут быть на крупных вокзалах группы учета и отчетности, ремонтные подразделения и т. д. В арендованных площадях могут размещаться кассы авиакомпаний, предприятия бытового обслуживания и общественного питания (почта, телефон, парикмахерские, буфеты, кафе, медпункты и др.). Руководство работой вокзала возлагается на начальника вокзала и его заместителей (к примеру, по пассажирской работе, по багажным перевозкам, по вокзальному хозяйству, главный инженер вокзала). Архитектурно вокзалы планируются с учётом оптимальной организации пассажиропотоков и работы персонала[3][1][5].  В современной России крупные железнодорожные вокзалы находятся в оперативном подчинении филиала ОАО «РЖД» — Дирекции железнодорожных вокзалов[6]." />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
